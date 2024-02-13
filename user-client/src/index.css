@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.left{
+  background: linear-gradient(45deg, #080707, #0f080862), url(https://preview.colorlib.com/theme/hospice/img/banner/home.jpg.webp ) no-repeat center;
+  /* background-size: 100%; */
+  overflow: hidden;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.select{
+  outline: none;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.bg{
+  background: linear-gradient(45deg, #261685, #1512e462) no-repeat;
+  overflow: hidden;
+  height: 100vh;
+  object-fit: cover;
+}
+.div>img{
+  height: 40%;
+  width: 40%;
+}
+.img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
